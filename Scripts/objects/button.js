@@ -12,9 +12,9 @@ var objects;
 (function (objects) {
     var Button = /** @class */ (function (_super) {
         __extends(Button, _super);
-        // PRIVATE INSTANCE VARIABlES +++++++++++
-        // PUBLIC PROPERTIES ++++++++++++++++++++
-        // CONSTRUCTORS +++++++++++++++++++++++++
+        // PRIVATE INSTANCE VARIABLES ++++++++++++++++++++
+        // PUBLIC PROPERTIES +++++++++++++++++++++++++++++
+        // CONSTRUCTORS ++++++++++++++++++++++++++++++++++
         /**
          * Creates an instance of Button.
          *
@@ -23,6 +23,7 @@ var objects;
          * @param {number} x
          * @param {number} y
          * @param {boolean} isCentered
+         * @memberof Button
          */
         function Button(assetManager, imageName, x, y, isCentered) {
             var _this = _super.call(this, assetManager.getResult(imageName)) || this;
@@ -37,12 +38,12 @@ var objects;
             _this.on("mouseout", _this._mouseOut);
             return _this;
         }
-        // PRIVATE METHODS ++++++++++++++++++++++
+        // PRIVATE METHODS +++++++++++++++++++++++++++++++
         Button.prototype._mouseOver = function (event) {
-            this.alpha = 0.7; // change opacity to 70%
+            this.alpha = 0.7; //change the opacity to 70%
         };
         Button.prototype._mouseOut = function (event) {
-            this.alpha = 1.0; // change the opacity to 100%
+            this.alpha = 1.0; //change the opacity to 100%
         };
         return Button;
     }(createjs.Bitmap));

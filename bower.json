@@ -1,8 +1,7 @@
 {
   "name": "createjs-template",
-  "homepage": "https://github.com/CentennialCollege/COMP397-F2017-Project-Template",
   "authors": [
-    "Tom Tsiliopoulos <tsiliopoulos@hotmail.com>"
+    "Sean (Sangbeom) Yi <isuryun@gmail.com>"
   ],
   "description": "CreateJS Project Template",
   "main": "",
@@ -10,11 +9,11 @@
     "CreateJS"
   ],
   "license": "MIT",
+  "homepage": "",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "Scripts/lib",
     "test",
     "tests"
   ],

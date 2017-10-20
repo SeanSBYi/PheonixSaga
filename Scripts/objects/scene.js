@@ -12,7 +12,7 @@ var objects;
 (function (objects) {
     var Scene = /** @class */ (function (_super) {
         __extends(Scene, _super);
-        // PUBLIC PROPERTIES
+        // PUBLIC PROPERTIE
         // CONSTRUCTORS
         function Scene() {
             return _super.call(this) || this;
@@ -20,18 +20,21 @@ var objects;
         // PRIVATE METHODS
         // PUBLIC METHODS
         /**
-         * Initialize Componenets here
+         * Initialize Components here
+         * @memberof Scene
          */
         Scene.prototype.Start = function () {
         };
         /**
-         * Update elements in the scene
+         * Update elemets in the scene
+         * @memberof Scene
          */
         Scene.prototype.Update = function () {
             return 0;
         };
         /**
-         *  Add elements in the Main Method
+         * Add elemets in the Main methods
+         * @memberof Scene
          */
         Scene.prototype.Main = function () {
         };

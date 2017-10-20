@@ -12,10 +12,9 @@ var objects;
 (function (objects) {
     var Label = /** @class */ (function (_super) {
         __extends(Label, _super);
-        // CONSTRUCTORS +++++++++++++++++++++++
+        // CONSTRUCTORS +++++++++++++++++++++++++++++++++++++        
         /**
          * Creates an instance of Label.
-         *
          * @param {string} labelstring
          * @param {string} fontSize
          * @param {string} fontFamily
@@ -23,6 +22,7 @@ var objects;
          * @param {number} x
          * @param {number} y
          * @param {boolean} isCentered
+         * @memberof Label
          */
         function Label(labelstring, fontSize, fontFamily, colour, x, y, isCentered) {
             var _this = _super.call(this, labelstring, fontSize + " " + fontFamily, colour) || this;
@@ -35,8 +35,8 @@ var objects;
             return _this;
         }
         Object.defineProperty(Label.prototype, "TextString", {
-            // PRIVATE INSTANCE VARIABLES +++++++++
-            // PUBLIC PROPERTIES ++++++++++++++++++
+            // PRIVATE INSTANCE VARIABLES +++++++++++++++++++++++
+            // PUBLIC PROPERTIES ++++++++++++++++++++++++++++++++
             get: function () {
                 return this.text;
             },
