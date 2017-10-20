@@ -20,7 +20,7 @@ module scenes {
     // PUBLIC METHODS
     public Start():void {
       this._gameOverLabel = new objects.Label("Game Over", "40px", "Consolas", "#000000", 320, 240, true);
-      this._backButton = new objects.Button(this._assetManager, "backButton", 320, 340, true);
+      this._backButton = new objects.Button(this._assetManager, "restartButton", 320, 340, true);
       this.Main();
     }
 
